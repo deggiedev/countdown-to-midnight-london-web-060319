@@ -1,4 +1,10 @@
-#write your code here
-
-def countdown
+#require 'pry'
+def countdown(number)
+ 
+  while number > 1
+    number -= 1
+    puts "#{number} SECOND(S)!"
+  end
+  "HAPPY NEW YEAR!"
 end
+#binding.pry
